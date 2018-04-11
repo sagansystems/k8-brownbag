@@ -1,0 +1,12 @@
+apiVersion: v1
+data:
+  master: redis-master
+  slave: redis-slave
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2018-04-11T04:06:57Z
+  name: frontend
+  namespace: default
+  resourceVersion: "7441"
+  selfLink: /api/v1/namespaces/default/configmaps/frontend
+  uid: c7406205-3d3d-11e8-98ae-080027948502
