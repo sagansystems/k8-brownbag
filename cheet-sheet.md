@@ -41,7 +41,7 @@
 `kubectl get deployment`
 
 ### View deployment details 
-`kubectl get deployment fronted -o yaml` 
+`kubectl get deployment frontend -o yaml` 
 
 ### Delete deployment
 `kubectl delete -f frontend_env/frontend.yaml`
