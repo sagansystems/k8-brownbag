@@ -35,7 +35,7 @@
 `kubectl get pods -l tier=frontend`
 
 ### AutoScale pods
-`kubectl scale --replica 4 deployment/frontend`
+`kubectl scale --replicas=4 deployment/frontend`
 
 ### View Deployment
 `kubectl get deployment`
