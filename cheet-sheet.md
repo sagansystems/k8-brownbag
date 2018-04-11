@@ -71,5 +71,25 @@ make container
 docker run ramakuka/gb-frontend-amd64:v5
 ```
 
-## Edit deployment
+### Edit deployment
 `kubectl edit deployment frontend`
+
+## Helm
+### Delete current service/deployment
+```
+kubectl delete svc frontend
+kubectl delete deployment frontend
+```
+
+### Helm intsall
+`helm install --name frontend ./frontend`
+
+### View helm status
+`helm ls`
+
+### Update Helm chart
+`helm upgrade frontend ./frontend`
+
+### Delete Helm chart
+`helm delete --purge frontend`
+

@@ -1,0 +1,17 @@
+replicaCount: 2
+image:
+  #repository: gcr.io/google-samples/gb-frontend
+  repository: ramakuka/gb-frontend
+  tag: v5
+  pullPolicy: Always
+service:
+  name: frontend
+  type: NodePort
+  externalPort: 80
+  internalPort: 80
+resources: {}
+config:
+  redis-master: redis-master
+  redis-slave: redis-slave
+ingress:
+  enable: false
