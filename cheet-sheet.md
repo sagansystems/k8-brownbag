@@ -10,10 +10,10 @@
 ### Frontend service 
 
 ## Create the service 
-`kubectl creatd -f frontend-service.yaml`
+`kubectl create -f frontend-service.yaml`
 
 ## [Describe](https://kubernetes-v1-4.github.io/docs/user-guide/kubectl/kubectl_describe/) it
-`kubectl descrive svc frontend`
+`kubectl describe svc frontend`
 
 ## Frontend Deployment AutoDiscovered  
 ### Create Frontend (Redis ENV_VAR are auto-discovered using DNS)
